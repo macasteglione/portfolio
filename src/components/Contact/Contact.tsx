@@ -100,8 +100,8 @@ export const Contact = () => {
                             <label className="contact_form_tag">Project</label>
                             <textarea
                                 name="project"
-                                cols="30"
-                                rows="10"
+                                cols={30}
+                                rows={10}
                                 className="contact_form_input"
                                 placeholder="Write Your Project"
                             ></textarea>
